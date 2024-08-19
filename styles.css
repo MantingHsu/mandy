@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Adjust padding for proper spacing */
+    background-color: transparent; /* Ensure background is transparent */
+    position: absolute; /* Positioning the header over the image */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header stays on top */
+}
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo-box span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+nav a {
+    color: #d2a86f;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    height: 50vh;
+    background-image: url('your-hero-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d2a86f;
+}
+
+.hero h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project img {
+    width: 50%;
+    height: auto;
+}
+
+.project-description {
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: #d2a86f;
+    width: 50%;
+}
+
+.project-description h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.footer {
+    padding: 50px 20px;
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+.footer a {
+    color: #d2a86f;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #fff;
+}
